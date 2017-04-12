@@ -1,5 +1,5 @@
 {
-  "name": "angular_routing_example",
+  "name": "todoapp",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RakeshMaddala/angular1-samples.git"
+    "url": "git+https://github.com/RakeshMaddala/todo-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RakeshMaddala/angular1-samples/issues"
+    "url": "https://github.com/RakeshMaddala/todo-app/issues"
   },
-  "homepage": "https://github.com/RakeshMaddala/angular1-samples#readme",
+  "homepage": "https://github.com/RakeshMaddala/todo-app#readme",
   "devDependencies": {
     "angular": "^1.6.2",
     "angular-animate": "^1.6.2",
