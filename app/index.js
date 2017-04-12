@@ -1,4 +1,4 @@
-import './vendors';
+require('./vendors');
 require('./assets/styles/main.css');
 
 angular.module('to-do-app', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls'])
