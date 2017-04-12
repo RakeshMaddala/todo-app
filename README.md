@@ -1,10 +1,13 @@
-# angular1-samples
-
-This project is a base project with all the build system inplace for getting started with UI app development
+# ToDo Project
 
 To get started,
 
 - clone the repo
-- delete node_modules
-- Run, npm install
-- Run, npm run start
+
+Starting the application
+- npm install
+- npm run start
+- access application using url: http://localhost:9000/
+
+Running Unit test cases
+- npm run test:unit
