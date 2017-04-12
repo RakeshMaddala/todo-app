@@ -1,0 +1,10 @@
+require('angular');
+require('angular-ui-router');
+require('angular-animate');
+require('angular-touch');
+require('bootstrap-loader');
+require('font-awesome-loader');
+require('angular-ui-bootstrap');
+require('./../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls');
+require('./../node_modules/angular-ui-bootstrap/dist/ui-bootstrap');
+require('./assets')
