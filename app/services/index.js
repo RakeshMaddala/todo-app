@@ -1,1 +1,1 @@
-require('./../services/mock.data.service')
+import './../services/mock.data.service';

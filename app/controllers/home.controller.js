@@ -4,6 +4,9 @@ angular.module('to-do-app').controller('HomeController', ['$scope', '$state', 'm
     $scope.mockservice = mockservice;
 
     $scope.showProjectProfile = function (projectdata) {
-      $state.go('project', {projectobj: projectdata})
+      const stateParamObject = {
+        projectobj: projectdata
+      }
+      $state.go('project', stateParamObject);
     }
 }]);

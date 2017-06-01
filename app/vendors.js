@@ -1,10 +1,10 @@
-require('angular');
-require('angular-ui-router');
-require('angular-animate');
-require('angular-touch');
-require('bootstrap-loader');
-require('font-awesome-loader');
-require('angular-ui-bootstrap');
-require('./../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls');
-require('./../node_modules/angular-ui-bootstrap/dist/ui-bootstrap');
-require('./assets')
+import 'angular';
+import 'angular-ui-router';
+import 'angular-animate';
+import 'angular-touch';
+import 'bootstrap-loader';
+import 'font-awesome-loader';
+import 'angular-ui-bootstrap';
+import './../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls';
+import './../node_modules/angular-ui-bootstrap/dist/ui-bootstrap';
+import './assets';

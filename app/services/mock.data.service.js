@@ -1,4 +1,4 @@
-angular.module('to-do-app').factory('mockservice', [function () {
+export default angular.module('to-do-app').factory('mockservice', [function () {
     var projects = [
         { 
           projectName: 'Street Lights', 

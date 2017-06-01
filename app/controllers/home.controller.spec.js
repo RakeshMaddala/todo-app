@@ -21,7 +21,7 @@ describe('Testing Home Controller function', function () {
     });
 
     it('should redirect to project page on click of project', function () {
-      let projectdata = {
+      const projectdata = {
         projectName: 'Data Analytics',
         projectstatus: 'Done',
         projectinformation: {

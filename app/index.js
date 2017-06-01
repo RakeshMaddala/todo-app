@@ -1,5 +1,5 @@
-require('./vendors');
-require('./assets/styles/main.css');
+import './vendors';
+import './assets/styles/main.css';
 
 angular.module('to-do-app', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls'])
   .config(function ($stateProvider, $urlRouterProvider) {
@@ -20,7 +20,4 @@ angular.module('to-do-app', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls'])
     $urlRouterProvider.otherwise('/home');
   });
 
-require('./controllers');
-require('./directives');
-require('./factories');
-require('./services');
+require('./app.js');
