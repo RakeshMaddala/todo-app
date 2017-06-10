@@ -1,5 +1,5 @@
 import './vendors';
-import './assets/styles/main.css';
+import './assets/styles/main.css'; 
 
 angular.module('to-do-app', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls'])
   .config(function ($stateProvider, $urlRouterProvider) {
